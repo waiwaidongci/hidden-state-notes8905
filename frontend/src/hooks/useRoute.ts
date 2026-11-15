@@ -1,0 +1,1 @@
+import {ref,onMounted,onUnmounted} from 'vue';export function useRoute(){const route=ref(location.hash.slice(1)||'overview');const f=()=>{route.value=location.hash.slice(1)||'overview';window.scrollTo(0,0)};onMounted(()=>window.addEventListener('hashchange',f));onUnmounted(()=>window.removeEventListener('hashchange',f));return route}

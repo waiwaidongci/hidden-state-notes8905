@@ -1,0 +1,1 @@
+export const ROLES={admin:'设备研究负责人',analyst:'序列分析员',viewer:'工况观察员'};export const RUN_STATUS={queued:'等待推断',running:'前后向与联合MAP',completed:'已核对',failed:'失败'};export const NOTE_STATUS={draft:'待审阅',approved:'已批准',rejected:'已退回'};

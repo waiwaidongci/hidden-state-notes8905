@@ -1,0 +1,1 @@
+import {request,post,patch} from './client';export const catalogApi={studies:()=>request('/studies'),traces:()=>request('/traces'),profiles:()=>request('/profiles'),createStudy:(data:any)=>post('/studies',data),createProfile:(data:any)=>post('/profiles',data),editTrace:(id:number,tokens:string[])=>patch('/traces/'+id,{tokens})};

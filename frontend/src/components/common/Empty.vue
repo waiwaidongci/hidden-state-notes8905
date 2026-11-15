@@ -1,0 +1,1 @@
+<script setup lang="ts">defineProps<{title:string;help:string}>();</script><template><div class="empty"><small>NO POSSIBLE INFERENCE</small><h2>{{title}}</h2><p>{{help}}</p><a href="#config">核对固定模型与观测选择 →</a></div></template>
